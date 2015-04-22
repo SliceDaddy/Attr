@@ -1,6 +1,6 @@
 package edu.saintjoe.cs.brianc.attr;
 
-	// Brian Capouch commenting a subclass of Attr, called ColorAttr
+	// Ryan Slipher ColorAttr from book
 	public class ColorAttr extends Attr {
 		
 		
