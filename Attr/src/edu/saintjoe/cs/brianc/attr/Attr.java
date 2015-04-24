@@ -1,5 +1,4 @@
 package edu.saintjoe.cs.brianc.attr;
-
 //Ryan Slipher Attr from book
 public class Attr {
 	
