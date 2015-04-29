@@ -53,13 +53,13 @@ package edu.saintjoe.cs.brianc.attr;
 			}
 
 		  /** Return decoded ScreenColor object */
-		  public ScreenColor getValue() {
+		  public ScreenColor getColor() {
 			    return myColor;
 			    }
 
 		  /** Set ScreenColor from description */
 		  protected void decodeColor() {
-			  if(getValue() == null)
+			  if(getColor() == null)
 				  System.out.println("Freakout!!");
 				  myColor = null;
 			  else
