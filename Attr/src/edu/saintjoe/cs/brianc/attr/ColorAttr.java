@@ -60,6 +60,7 @@ package edu.saintjoe.cs.brianc.attr;
 		  /** Set ScreenColor from description */
 		  protected void decodeColor() {
 			  if(getValue() == null)
+				  System.out.println("Freakout!!");
 				  myColor = null;
 			  else
 				  myColor = new ScreenColor(getvalue());
