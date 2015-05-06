@@ -16,11 +16,9 @@ public class ScreenColor {
 		  if (colorDescription.equals("transparent"))
 			  // This is a bogus value!!
 			  return (colorValue = 0x000000);
-		  else if (colorDescription.equals("red"))
+		  else if (colorDescription.equals("crimson"))
 			  return (colorValue = 0xff0000);
-		  else if (colorDescription.equals("blue"))
-			  return (colorValue = 0x08088A);
-		  else if (colorDescription.equals("green"))
+		  else if (colorDescription.equals("chartreuse"))
 			  return (colorValue = 0x64FE2E);
 		  // We have to return something; this isn't really the right way to do it!
 		  return 0;
