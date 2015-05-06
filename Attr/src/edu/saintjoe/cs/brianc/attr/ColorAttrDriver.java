@@ -20,13 +20,13 @@ public class ColorAttrDriver {
 		testTwo = new ColorAttr("ColorTwo");
 		System.out.println(testTwo.toString());
 		
-		// Number Three
+		// Number Three 
 		testThree = new ColorAttr("ColorThree", newColor);
 		System.out.println(testThree.toString());
 		
-		// Number four
-				testFour = new Attr("ColorFour", "yellow");
-				System.out.println(testFour.toString());
+		// Number four specifically used for Attr.jave
+		testFour = new Attr("ColorFour", "yellow");
+		System.out.println(testFour.toString());
 				
 			} // end main
 }	
